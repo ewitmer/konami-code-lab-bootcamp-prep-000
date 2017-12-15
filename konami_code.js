@@ -5,7 +5,7 @@ function init() {
   let array = [];
   document.onkeydown = function(e) {
     let expected = code[index]
-    let actual = (e.which)
+    let actual = (e.which || e.keyCode)
     if (expected === actual) {
       array.push(actual)
       index++
