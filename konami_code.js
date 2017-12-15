@@ -9,9 +9,7 @@ function init() {
       index++
       if (array.length === code.length) {
         alert('you won')
-        console.log('you won')
         index = 0;
-        array = [];
       }
     } else {
       index = 0;
