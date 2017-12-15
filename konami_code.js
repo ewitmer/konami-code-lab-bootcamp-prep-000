@@ -4,7 +4,7 @@ function init() {
   let index = 0;
   let array = [];
   document.onkeydown = function(e) {
-    let expected = code[index]
+    let expected = parseInt(code[index])
     let actual = parseInt(e.detail || e.which);
     if (expected === actual) {
       array.push(actual)
