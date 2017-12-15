@@ -7,7 +7,6 @@ function init() {
     let actual = parseInt(e.detail || e.which);
     if (expected === actual) {
       index++
-      console.log(array)
       if (array.length === code.length) {
         alert('you won')
         console.log('you won')
