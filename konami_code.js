@@ -13,8 +13,6 @@ function init() {
       }
     } else {
       index = 0;
-      array = [];
-      console.log(array)
     }
   }
 }
