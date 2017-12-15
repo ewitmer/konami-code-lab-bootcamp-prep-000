@@ -4,10 +4,9 @@ function init() {
   let index = 0;
   let array = [];
   document.onkeydown = function(e) {
-    let expected = parseInt(code[index])
+    let expected = code[index]
     let actual = parseInt(e.detail || e.which);
     if (expected === actual) {
-      array.push(actual)
       index++
       console.log(array)
       if (array.length === code.length) {
